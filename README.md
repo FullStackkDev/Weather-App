@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project is created by `FullStackDev` at Shayan Solutions [Weather app](https://github.com/FullStackkDev/Weather-App.git).
+This project is created by `FullStackDev` at Shayan Solutions [Weather app](https://fullstackkdev.github.io/Weather-App/).
 
 ## How to Run
 
