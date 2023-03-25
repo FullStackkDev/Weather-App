@@ -1,0 +1,65 @@
+.showWeather {
+    max-width: 380px;
+    overflow: auto;
+    margin: 2rem auto;
+    background-color: white;
+    box-shadow: 0 1px 4px;
+    padding: 1rem 2rem 2rem;
+    box-sizing: border-box;
+}
+
+.weatherMain {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    margin: 1rem 0;
+    font-size: 2.5rem;
+}
+
+.weatherMain sub {
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+.weatherMain img {
+    width: 100px;
+    height: 100px;
+}
+
+.location {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.country {
+    font-size: 0.5em;
+}
+
+.weatherInfo {
+    margin: 3rem 0 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+.row {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.weatherData {
+    display: flex;
+    align-items: center;
+    width: 8em;
+    font-size: 0.9em;
+}
+
+.weatherData img {
+    width: 40px;
+    margin-right: 1rem;
+}
