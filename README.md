@@ -2,11 +2,22 @@
 
 This project is created by `FullStackDev` at Shayan Solutions [Weather app](https://fullstackkdev.github.io/Weather-App/).
 
+
+![Screenshot1](./images/karachi.PNG)
+![Screenshot1](./images/lahore3.PNG)
+
+
 ## How to Run
 
 - Clone the repository
 - Run "npm install"
 - Run "npm start"
+## Dependencies
+
+- react : 18.2.0
+- react-dom : 18.2.0
+- react-scripts : 5.0.1
+- web-vitals : 2.1.4
 
 ## Available Scripts
 
