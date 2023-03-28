@@ -4,7 +4,7 @@ This project is created by `FullStackDev` at Shayan Solutions [Weather app](http
 
 
 ![Screenshot1](./images/karachi.PNG)
-![Screenshot1](./images/lahore3.PNG)
+![Screenshot1](./images/lahore.PNG)
 
 
 ## How to Run
