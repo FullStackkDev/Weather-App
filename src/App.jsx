@@ -27,7 +27,7 @@ export default function App() {
             try {
                 const response = await fetch(URL);
                 const data = await response.json()
-                console.log("data.cod ", data.cod)
+                console.log("data", data)
                 if (data.cod === "404") {
                     setError(true);
                 } else {

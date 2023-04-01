@@ -10,6 +10,7 @@ export default function ShowWeather({ data }) {
     const humidity = data.main ? data.main.humidity : null;
     const clouds = data.clouds ? data.clouds.all : null;
     const status = data.weather ? data.weather[0].main : null
+    const description = data.weather ? data.weather[0].description : null
     const icon = data.weather ? data.weather[0].icon : null
 
     // Values in standard units
@@ -22,15 +23,22 @@ export default function ShowWeather({ data }) {
         <div className="showWeather">
             <div className="weatherMain">
                 <span>
-                    {tempInCelcius}° C <sub> | {status} </sub>
+                    {tempInCelcius}° C
+                    <sub>
+                        | {status}
+                    </sub>
                 </span>
                 <img src={WeatherIcons[icon]} alt="" />
+                {/* <img src={`openweather-icons/${icon}@2x.png`} alt="" /> */}
             </div>
             <div className="location">
                 {city}, {country}
             </div>
             <div className="weatherInfo">
                 Weather Info
+            </div>
+            <div className="description">
+                {description}
             </div>
             <div className="row">
                 <div className="weatherData">
@@ -52,7 +60,6 @@ export default function ShowWeather({ data }) {
                 </div>
                 <div className="weatherData">
                     <img src={WeatherInfoIcons["clouds"]} alt="" />
-
                     <p>
                         {clouds} %{" "}
                         <br />
